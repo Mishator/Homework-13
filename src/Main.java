@@ -18,6 +18,8 @@ public class Main {
         System.out.println("idiot.getBookName() = " + idiot.getBookName());
         System.out.println("idiot.getAuthorName() = " + idiot.getAuthorName());
         System.out.println("idiot.getYearPublication() = " + idiot.getYearPublication());
+        idiot.setYearPublication(1868);
+        System.out.println("idiot.getYearPublication() = " + idiot.getYearPublication());
         System.out.println();
 
         Author authorNameDostoevsky = new Author("Фёдор Михайлович", "Достоевский");
