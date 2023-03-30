@@ -5,6 +5,8 @@ public class Main {
         System.out.println("warAndPeace.bookName = " + warAndPeace.getBookName());
         System.out.println("warAndPeace.Author = " + warAndPeace.getAuthorName());
         System.out.println("warAndPeace.yearPublication = " + warAndPeace.getYearPublication());
+        warAndPeace.setYearPublication(1868);
+        System.out.println("warAndPeace.getYearPublication() = " + warAndPeace.getYearPublication());
         System.out.println();
 
         Author authorNameTolstoy = new Author("Лев Николаевич", "Толстой");
