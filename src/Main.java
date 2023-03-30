@@ -12,5 +12,17 @@ public class Main {
         Author authorNameTolstoy = new Author("Лев Николаевич", "Толстой");
         System.out.println("authorNameTolstoy.authorName = " + authorNameTolstoy.getAuthorName());
         System.out.println("authorNameTolstoy.authorLastName = " + authorNameTolstoy.getAuthorLastName());
+        System.out.println();
+
+        Book idiot = new Book("Идиот", "Ф.М. Достоевский", 1869);
+        System.out.println("idiot.getBookName() = " + idiot.getBookName());
+        System.out.println("idiot.getAuthorName() = " + idiot.getAuthorName());
+        System.out.println("idiot.getYearPublication() = " + idiot.getYearPublication());
+        System.out.println();
+
+        Author authorNameDostoevsky = new Author("Фёдор Михайлович", "Достоевский");
+        System.out.println("authorNameDostoevsky.getAuthorName() = " + authorNameDostoevsky.getAuthorName());
+        System.out.println("authorNameDostoevsky.getAuthorLastName() = " + authorNameDostoevsky.getAuthorLastName());
+        System.out.println();
     }
 }
