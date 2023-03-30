@@ -1,7 +1,7 @@
 public class Book {
-    String bookName;
-    String AuthorName;
-    int yearPublication;
+    private String bookName;
+    private String AuthorName;
+    private int yearPublication;
 
     public Book(String bookName, String AuthorName, int yearPublication) {
         this.bookName = bookName;
