@@ -6,4 +6,12 @@ public class Author {
         this.authorName = authorName;
         this.authorLastName = authorLastName;
     }
+
+    public String getAuthorName() {
+        return this.authorName;
+    }
+
+    public String getAuthorLastName() {
+        return this.authorLastName;
+    }
 }

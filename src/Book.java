@@ -8,4 +8,16 @@ public class Book {
         this.AuthorName = AuthorName;
         this.yearPublication = yearPublication;
     }
+
+    public String getBookName() {
+        return this.bookName;
+    }
+
+    public String getAuthorName() {
+        return this.AuthorName;
+    }
+
+    public int getYearPublication() {
+        return this.yearPublication;
+    }
 }
