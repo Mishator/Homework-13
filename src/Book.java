@@ -39,4 +39,9 @@ public class Book {
     public int hashCode() {
         return Objects.hash(bookName, author);
     }
+
+    @Override
+    public String toString() {
+        return this.bookName + " - " + this.author;
+    }
 }
